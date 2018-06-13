@@ -1,0 +1,46 @@
+//
+//  Notifications.swift
+//  IAPKit
+//
+//  Copyright (c) 2018 Black Pixel.
+//
+//  Permission is hereby granted, free of charge, to any person obtaining a copy
+//  of this software and associated documentation files (the "Software"), to deal
+//  in the Software without restriction, including without limitation the rights
+//  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+//  copies of the Software, and to permit persons to whom the Software is
+//  furnished to do so, subject to the following conditions:
+//
+//  The above copyright notice and this permission notice shall be included in all
+//  copies or substantial portions of the Software.
+//
+//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+//  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+//  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+//  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+//  SOFTWARE.
+//
+
+import Foundation
+
+/// Posted by IAPStore.
+public extension Notification.Name {
+    
+    /// An IAPStore refreshed its list of products and their availabilities.
+    static let IAPStoreDidRefresh = Notification.Name(
+        rawValue: "com.blackpixel.IAPStoreDidRefresh"
+    )
+    
+    /// An user initiated event occurred in IAPStore.  Used for logging
+    /// and/or analytics in the consuming client
+    static let IAPUserEvent = Notification.Name(
+        rawValue: "com.blackpixel.IAPUserEvent"
+    )
+    
+}
+
+public enum IAPNotificationUserInfoKeys: String {
+    case purchasedProduct
+}

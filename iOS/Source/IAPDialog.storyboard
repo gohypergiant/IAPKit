@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SKd-H9-biH">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Dialog View Controller-->
+        <scene sceneID="FgI-u8-HoJ">
+            <objects>
+                <viewController id="SKd-H9-biH" customClass="IAPDialogViewController" customModule="IAP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hot-Yo-1xM">
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="620"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Eqr-nJ-8ci">
+                                <rect key="frame" x="0.0" y="66" width="540" height="422"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="IeO-3Q-hHC">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="SKd-H9-biH" id="CJA-sv-89h"/>
+                                    <outlet property="delegate" destination="SKd-H9-biH" id="l67-no-5dD"/>
+                                </connections>
+                            </collectionView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wzu-z1-vOA">
+                                <rect key="frame" x="0.0" y="0.0" width="540" height="66"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="yW3-Ko-aTU">
+                                    <rect key="frame" x="0.0" y="0.0" width="540" height="66"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="x43-7k-tOV"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Eh-fA-SR2">
+                                <rect key="frame" x="0.0" y="488" width="540" height="132"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="AS2-xI-AKf">
+                                    <rect key="frame" x="0.0" y="0.0" width="540" height="132"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iK0-Or-673" customClass="RoundedButton" customModule="IAP" customModuleProvider="target">
+                                <rect key="frame" x="126" y="508" width="288" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="288" id="VSD-1W-L1b"/>
+                                    <constraint firstAttribute="height" constant="50" id="mRe-qc-oeb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <state key="normal" title="Buy Now"/>
+                                <connections>
+                                    <action selector="buyNow" destination="SKd-H9-biH" eventType="touchUpInside" id="DEY-tO-kSo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wu-zr-taA">
+                                <rect key="frame" x="202.5" y="568" width="135" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="SbR-r1-PeU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Restore Purchase"/>
+                                <connections>
+                                    <action selector="restore" destination="SKd-H9-biH" eventType="touchUpInside" id="DKY-6L-Knd"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oV8-pk-g1b">
+                                <rect key="frame" x="0.0" y="0.0" width="540" height="620"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="APX-B1-36K">
+                                        <rect key="frame" x="250.5" y="290" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="99H-ab-f0g"/>
+                                            <constraint firstAttribute="height" constant="40" id="Cn5-BL-2QP"/>
+                                        </constraints>
+                                        <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.5963908450704225" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="APX-B1-36K" firstAttribute="centerX" secondItem="oV8-pk-g1b" secondAttribute="centerX" id="EYr-1c-4OF"/>
+                                    <constraint firstItem="APX-B1-36K" firstAttribute="centerY" secondItem="oV8-pk-g1b" secondAttribute="centerY" id="K8Q-Yd-97F"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJg-cT-XWa">
+                                <rect key="frame" x="18" y="21" width="99" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="7iD-gI-2ta"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Close Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismiss" destination="SKd-H9-biH" eventType="touchUpInside" id="6I2-ry-lnc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ekn-5g-HGj">
+                                <rect key="frame" x="503" y="16" width="21" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="UnR-64-OTF"/>
+                                    <constraint firstAttribute="width" constant="21" id="pKy-lt-i72"/>
+                                </constraints>
+                                <state key="normal" image="IAP-close_button"/>
+                                <state key="highlighted" image="IAP-close_button-pressed"/>
+                                <connections>
+                                    <action selector="dismiss" destination="SKd-H9-biH" eventType="touchUpInside" id="dQ3-UR-Z7K"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ig6-LV-ayH" firstAttribute="bottom" secondItem="oV8-pk-g1b" secondAttribute="bottom" id="0Uv-sL-Kx1"/>
+                            <constraint firstItem="0wu-zr-taA" firstAttribute="top" secondItem="iK0-Or-673" secondAttribute="bottom" constant="10" id="30d-9O-3Jq"/>
+                            <constraint firstItem="oV8-pk-g1b" firstAttribute="leading" secondItem="ig6-LV-ayH" secondAttribute="leading" id="4JJ-aT-IOS"/>
+                            <constraint firstAttribute="bottom" secondItem="4Eh-fA-SR2" secondAttribute="bottom" id="BqI-X1-5na"/>
+                            <constraint firstItem="iK0-Or-673" firstAttribute="centerX" secondItem="ig6-LV-ayH" secondAttribute="centerX" id="CiQ-pK-2cz"/>
+                            <constraint firstItem="Eqr-nJ-8ci" firstAttribute="leading" secondItem="ig6-LV-ayH" secondAttribute="leading" id="Fro-Xw-2kD"/>
+                            <constraint firstItem="ig6-LV-ayH" firstAttribute="trailing" secondItem="oV8-pk-g1b" secondAttribute="trailing" id="LpZ-wa-rX0"/>
+                            <constraint firstItem="Wzu-z1-vOA" firstAttribute="leading" secondItem="Hot-Yo-1xM" secondAttribute="leading" id="MCM-qj-4Mu"/>
+                            <constraint firstItem="0wu-zr-taA" firstAttribute="top" secondItem="ig6-LV-ayH" secondAttribute="top" constant="1" id="NCb-BB-j2C"/>
+                            <constraint firstItem="ig6-LV-ayH" firstAttribute="bottom" secondItem="0wu-zr-taA" secondAttribute="bottom" constant="10" id="OPf-6v-hvI"/>
+                            <constraint firstAttribute="trailing" secondItem="4Eh-fA-SR2" secondAttribute="trailing" id="QbF-0s-Mtt"/>
+                            <constraint firstItem="4Eh-fA-SR2" firstAttribute="leading" secondItem="Hot-Yo-1xM" secondAttribute="leading" id="Vfe-5P-LfA"/>
+                            <constraint firstItem="0wu-zr-taA" firstAttribute="centerX" secondItem="ig6-LV-ayH" secondAttribute="centerX" id="a2i-k9-mrA"/>
+                            <constraint firstItem="4Eh-fA-SR2" firstAttribute="top" secondItem="Eqr-nJ-8ci" secondAttribute="bottom" id="b83-KP-wD9"/>
+                            <constraint firstItem="Ekn-5g-HGj" firstAttribute="top" secondItem="Hot-Yo-1xM" secondAttribute="top" constant="16" id="eiQ-hP-hbM"/>
+                            <constraint firstItem="eJg-cT-XWa" firstAttribute="top" secondItem="ig6-LV-ayH" secondAttribute="top" constant="1" id="grF-tK-1ba"/>
+                            <constraint firstItem="4Eh-fA-SR2" firstAttribute="top" secondItem="iK0-Or-673" secondAttribute="top" constant="-20" id="i9T-fE-eKs"/>
+                            <constraint firstItem="ig6-LV-ayH" firstAttribute="trailing" secondItem="Eqr-nJ-8ci" secondAttribute="trailing" id="jwM-uF-akw"/>
+                            <constraint firstItem="ig6-LV-ayH" firstAttribute="bottom" secondItem="iK0-Or-673" secondAttribute="bottom" constant="15" id="l2K-dP-dJP"/>
+                            <constraint firstAttribute="trailing" secondItem="Wzu-z1-vOA" secondAttribute="trailing" id="lhB-A6-IdC"/>
+                            <constraint firstItem="Eqr-nJ-8ci" firstAttribute="top" secondItem="Wzu-z1-vOA" secondAttribute="bottom" id="lkR-Qm-9iV"/>
+                            <constraint firstItem="eJg-cT-XWa" firstAttribute="leading" secondItem="ig6-LV-ayH" secondAttribute="leading" constant="18" id="oEZ-JA-1R8"/>
+                            <constraint firstItem="ig6-LV-ayH" firstAttribute="trailing" secondItem="Ekn-5g-HGj" secondAttribute="trailing" constant="16" id="qLz-rX-QD0"/>
+                            <constraint firstItem="Wzu-z1-vOA" firstAttribute="top" secondItem="Hot-Yo-1xM" secondAttribute="top" id="qgn-9f-8Jm"/>
+                            <constraint firstItem="ig6-LV-ayH" firstAttribute="trailing" secondItem="0wu-zr-taA" secondAttribute="trailing" constant="18" id="yCg-JD-mc5"/>
+                            <constraint firstItem="oV8-pk-g1b" firstAttribute="top" secondItem="Hot-Yo-1xM" secondAttribute="top" id="yP0-Ig-Vql"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ig6-LV-ayH"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="l2K-dP-dJP"/>
+                                <exclude reference="yCg-JD-mc5"/>
+                                <exclude reference="NCb-BB-j2C"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="540" height="475"/>
+                    <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="540" height="620"/>
+                    <connections>
+                        <outlet property="activityView" destination="oV8-pk-g1b" id="WmI-Hf-IOt"/>
+                        <outlet property="buyNowButton" destination="iK0-Or-673" id="Skg-YM-VDv"/>
+                        <outlet property="buyNowButtonBottomToRestoreConstraint" destination="30d-9O-3Jq" id="vHZ-qK-Jls"/>
+                        <outlet property="buyNowButtonBottomToViewConstraint" destination="l2K-dP-dJP" id="Qgd-fj-T8S"/>
+                        <outlet property="closeButton" destination="Ekn-5g-HGj" id="KH9-M6-8YZ"/>
+                        <outlet property="closeButtonTopConstraint" destination="eiQ-hP-hbM" id="c1v-Vc-MMh"/>
+                        <outlet property="closeLabelButton" destination="eJg-cT-XWa" id="9x3-ff-1Vt"/>
+                        <outlet property="collectionView" destination="Eqr-nJ-8ci" id="mMs-Nl-klY"/>
+                        <outlet property="footerBackground" destination="4Eh-fA-SR2" id="ikz-vG-E2P"/>
+                        <outlet property="headerBackground" destination="Wzu-z1-vOA" id="OP2-2z-0Is"/>
+                        <outlet property="headerHeightConstraint" destination="x43-7k-tOV" id="fS2-Ck-1Ap"/>
+                        <outlet property="restoreButton" destination="0wu-zr-taA" id="9H1-GS-Kye"/>
+                        <outlet property="restoreButtonBottomToViewConstraint" destination="OPf-6v-hvI" id="FNW-va-y0j"/>
+                        <outlet property="restoreButtonCenterXConstraint" destination="a2i-k9-mrA" id="Im8-9F-VUH"/>
+                        <outlet property="restoreButtonTopToViewConstraint" destination="NCb-BB-j2C" id="74q-XN-er1"/>
+                        <outlet property="restoreButtonTrailingConstraint" destination="yCg-JD-mc5" id="Hdv-VD-bzR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w1x-t0-S0X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-193.359375" y="-139.0625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IAP-close_button" width="21" height="21"/>
+        <image name="IAP-close_button-pressed" width="21" height="21"/>
+    </resources>
+</document>

@@ -1,0 +1,2093 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371AAA401F631629003A3C63 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9B61F63147B003A3C63 /* aes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA411F631629003A3C63 /* asn1_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9C21F63147D003A3C63 /* asn1_mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA421F631629003A3C63 /* asn1.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9AD1F631479003A3C63 /* asn1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA431F631629003A3C63 /* asn1t.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9BC1F63147C003A3C63 /* asn1t.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA441F631629003A3C63 /* bio.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9DB1F631481003A3C63 /* bio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA451F631629003A3C63 /* blowfish.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9B11F63147A003A3C63 /* blowfish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA461F631629003A3C63 /* bn.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9C11F63147D003A3C63 /* bn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA471F631629003A3C63 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9EB1F631483003A3C63 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA481F631629003A3C63 /* camellia.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9D71F631480003A3C63 /* camellia.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA491F631629003A3C63 /* cast.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9DE1F631481003A3C63 /* cast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA4A1F631629003A3C63 /* cmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9AE1F63147A003A3C63 /* cmac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA4B1F631629003A3C63 /* cms.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9B51F63147B003A3C63 /* cms.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA4C1F631629003A3C63 /* comp.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9E71F631482003A3C63 /* comp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA4D1F631629003A3C63 /* conf_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9B71F63147B003A3C63 /* conf_api.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA4E1F631629003A3C63 /* conf.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9CB1F63147F003A3C63 /* conf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA4F1F631629003A3C63 /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA99A1F631477003A3C63 /* crypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA501F631629003A3C63 /* des_old.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9E61F631482003A3C63 /* des_old.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA511F631629003A3C63 /* des.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA99B1F631477003A3C63 /* des.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA521F631629003A3C63 /* dh.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9C51F63147E003A3C63 /* dh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA531F631629003A3C63 /* dsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9B21F63147A003A3C63 /* dsa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA541F631629003A3C63 /* dso.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9EA1F631483003A3C63 /* dso.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA551F631629003A3C63 /* dtls1.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9BF1F63147D003A3C63 /* dtls1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA561F631629003A3C63 /* e_os2.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9BD1F63147C003A3C63 /* e_os2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA571F631629003A3C63 /* ebcdic.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9DF1F631481003A3C63 /* ebcdic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA581F631629003A3C63 /* ec.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9A21F631478003A3C63 /* ec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA591F631629003A3C63 /* ecdh.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9AC1F631479003A3C63 /* ecdh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA5A1F631629003A3C63 /* ecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9A71F631479003A3C63 /* ecdsa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA5B1F631629003A3C63 /* engine.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9E11F631482003A3C63 /* engine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA5C1F631629003A3C63 /* err.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9D51F631480003A3C63 /* err.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA5D1F631629003A3C63 /* evp.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9A81F631479003A3C63 /* evp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA5E1F631629003A3C63 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9D81F631480003A3C63 /* hmac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA5F1F631629003A3C63 /* idea.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9E21F631482003A3C63 /* idea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA601F631629003A3C63 /* krb5_asn.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9A61F631479003A3C63 /* krb5_asn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA611F631629003A3C63 /* kssl.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9E41F631482003A3C63 /* kssl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA621F631629003A3C63 /* lhash.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9CF1F63147F003A3C63 /* lhash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA631F631629003A3C63 /* md4.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9BB1F63147B003A3C63 /* md4.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA641F631629003A3C63 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9AB1F631479003A3C63 /* md5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA651F631629003A3C63 /* mdc2.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9B81F63147B003A3C63 /* mdc2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA661F631629003A3C63 /* modes.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA99C1F631477003A3C63 /* modes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA671F631629003A3C63 /* obj_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9C61F63147E003A3C63 /* obj_mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA681F631629003A3C63 /* objects.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9C01F63147D003A3C63 /* objects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA691F631629003A3C63 /* ocsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9B91F63147B003A3C63 /* ocsp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA6A1F631629003A3C63 /* opensslconf_ios_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9A51F631479003A3C63 /* opensslconf_ios_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA6B1F631629003A3C63 /* opensslconf_ios_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9CD1F63147F003A3C63 /* opensslconf_ios_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA6C1F631629003A3C63 /* opensslconf_ios_armv7s.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9D01F63147F003A3C63 /* opensslconf_ios_armv7s.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA6D1F631629003A3C63 /* opensslconf_ios_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9A31F631478003A3C63 /* opensslconf_ios_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA6E1F631629003A3C63 /* opensslconf_ios_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9D61F631480003A3C63 /* opensslconf_ios_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA6F1F631629003A3C63 /* opensslconf_tvos_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9A41F631478003A3C63 /* opensslconf_tvos_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA701F631629003A3C63 /* opensslconf_tvos_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9E31F631482003A3C63 /* opensslconf_tvos_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA711F631629003A3C63 /* opensslconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9BE1F63147D003A3C63 /* opensslconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA721F631629003A3C63 /* opensslv.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9AA1F631479003A3C63 /* opensslv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA731F631629003A3C63 /* ossl_typ.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9BA1F63147B003A3C63 /* ossl_typ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA741F631629003A3C63 /* pem.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9C71F63147E003A3C63 /* pem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA751F631629003A3C63 /* pem2.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA99E1F631478003A3C63 /* pem2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA761F631629003A3C63 /* pkcs7.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9C81F63147E003A3C63 /* pkcs7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA771F631629003A3C63 /* pkcs12.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9C41F63147E003A3C63 /* pkcs12.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA781F631629003A3C63 /* pqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9D91F631480003A3C63 /* pqueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA791F631629003A3C63 /* rand.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9D11F63147F003A3C63 /* rand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA7A1F631629003A3C63 /* rc2.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9B31F63147A003A3C63 /* rc2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA7B1F631629003A3C63 /* rc4.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9CA1F63147E003A3C63 /* rc4.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA7C1F631629003A3C63 /* ripemd.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9C31F63147D003A3C63 /* ripemd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA7D1F631629003A3C63 /* rsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9DC1F631481003A3C63 /* rsa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA7E1F631629003A3C63 /* safestack.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9E81F631482003A3C63 /* safestack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA7F1F631629003A3C63 /* seed.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9E01F631481003A3C63 /* seed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA801F631629003A3C63 /* sha.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9DD1F631481003A3C63 /* sha.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA811F631629003A3C63 /* srp.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA99D1F631477003A3C63 /* srp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA821F631629003A3C63 /* srtp.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9CC1F63147F003A3C63 /* srtp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA831F631629003A3C63 /* ssl.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9D21F631480003A3C63 /* ssl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA841F631629003A3C63 /* ssl2.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9D31F631480003A3C63 /* ssl2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA851F631629003A3C63 /* ssl3.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9E51F631482003A3C63 /* ssl3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA861F631629003A3C63 /* ssl23.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA99F1F631478003A3C63 /* ssl23.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA871F631629003A3C63 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9A01F631478003A3C63 /* stack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA881F631629003A3C63 /* symhacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9CE1F63147F003A3C63 /* symhacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA891F631629003A3C63 /* tls1.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9E91F631483003A3C63 /* tls1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA8A1F631629003A3C63 /* ts.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9DA1F631481003A3C63 /* ts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA8B1F631629003A3C63 /* txt_db.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9AF1F63147A003A3C63 /* txt_db.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA8C1F631629003A3C63 /* ui_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9B41F63147A003A3C63 /* ui_compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA8D1F631629003A3C63 /* ui.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9C91F63147E003A3C63 /* ui.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA8E1F631629003A3C63 /* whrlpool.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9A91F631479003A3C63 /* whrlpool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA8F1F631629003A3C63 /* x509_vfy.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9B01F63147A003A3C63 /* x509_vfy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA901F631629003A3C63 /* x509.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9A11F631478003A3C63 /* x509.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA911F631629003A3C63 /* x509v3.h in Headers */ = {isa = PBXBuildFile; fileRef = 371AA9D41F631480003A3C63 /* x509v3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371AAA921F631629003A3C63 /* module.modulemap in Headers */ = {isa = PBXBuildFile; fileRef = 37A14FAB1F58D4BA005C7F00 /* module.modulemap */; settings = {ATTRIBUTES = (Public, ); }; };
+		3733597A1F63766B0066E08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373359791F63766B0066E08E /* Assets.xcassets */; };
+		374D833D1F66EED800EA503C /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D833C1F66EED800EA503C /* UIImage.swift */; };
+		374D833F1F66EEE900EA503C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D833E1F66EEE900EA503C /* UIColor.swift */; };
+		374D83401F66FFBA00EA503C /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D833B1F66EEBB00EA503C /* UIApplication.swift */; };
+		374E27831F577C3C007000C7 /* IAPDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E27821F577C3C007000C7 /* IAPDialogViewController.swift */; };
+		374E27A21F58C54C007000C7 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 374E27A11F58C529007000C7 /* libcrypto.a */; };
+		374E27A31F58C54C007000C7 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 374E27A01F58C528007000C7 /* libssl.a */; };
+		375AD02E1F6057B300721D4C /* ReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E27911F58AFF9007000C7 /* ReceiptValidator.swift */; };
+		375AD02F1F6057B400721D4C /* ReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E27911F58AFF9007000C7 /* ReceiptValidator.swift */; };
+		375AD0301F6057B500721D4C /* ReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E27911F58AFF9007000C7 /* ReceiptValidator.swift */; };
+		375AD03C1F60759B00721D4C /* PurchasedProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375AD03B1F60759B00721D4C /* PurchasedProduct.swift */; };
+		378AC3841F61A1A600015CC3 /* IAPDialog.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378AC3831F61A1A600015CC3 /* IAPDialog.storyboard */; };
+		378F6C431F68C6230063EF21 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 378F6C421F68C6090063EF21 /* Localizable.strings */; };
+		37924AA51F97FEB7005DB087 /* UserEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37924AA41F97FEB7005DB087 /* UserEvents.swift */; };
+		37A1509A1F59D82A005C7F00 /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 374E27951F58B35E007000C7 /* AppleIncRootCertificate.cer */; };
+		37A1509B1F59D82B005C7F00 /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 374E27951F58B35E007000C7 /* AppleIncRootCertificate.cer */; };
+		37A1509C1F59D82C005C7F00 /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 374E27951F58B35E007000C7 /* AppleIncRootCertificate.cer */; };
+		37A150A11F5A0180005C7F00 /* PurchaseReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A150A01F5A0180005C7F00 /* PurchaseReceipt.swift */; };
+		37A150A31F5A0243005C7F00 /* ASN1Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A150A21F5A0243005C7F00 /* ASN1Helper.swift */; };
+		37A150A51F5A06A8005C7F00 /* OpenSSLObjectWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A150A41F5A06A8005C7F00 /* OpenSSLObjectWrappers.swift */; };
+		37DBC52E1F5EF9B900C4BE15 /* ProductsRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DBC52D1F5EF9B900C4BE15 /* ProductsRequestManager.swift */; };
+		37DBC5301F5F13FA00C4BE15 /* PaymentTransactionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DBC52F1F5F13FA00C4BE15 /* PaymentTransactionObserver.swift */; };
+		37EC59D01F67684C005F138F /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EC59CF1F67684C005F138F /* RoundedButton.swift */; };
+		75403B6D1F62FD1B00416CB2 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75403B6C1F62FD1B00416CB2 /* Keychain.swift */; };
+		75403B6E1F62FD1B00416CB2 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75403B6C1F62FD1B00416CB2 /* Keychain.swift */; };
+		75403B6F1F62FD1B00416CB2 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75403B6C1F62FD1B00416CB2 /* Keychain.swift */; };
+		75E0C2BE1F62DAA7002A9E2B /* SecureDateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E0C2BD1F62DAA7002A9E2B /* SecureDateProvider.swift */; };
+		75E0C2BF1F62DAA7002A9E2B /* SecureDateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E0C2BD1F62DAA7002A9E2B /* SecureDateProvider.swift */; };
+		75E0C2C01F62DAA7002A9E2B /* SecureDateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E0C2BD1F62DAA7002A9E2B /* SecureDateProvider.swift */; };
+		75E0C2C41F62DAF0002A9E2B /* HTTPDateClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E0C2BC1F62DA7B002A9E2B /* HTTPDateClient.swift */; };
+		75E0C2C51F62DAF0002A9E2B /* HTTPDateClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E0C2BC1F62DA7B002A9E2B /* HTTPDateClient.swift */; };
+		75E0C2C61F62DAF1002A9E2B /* HTTPDateClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E0C2BC1F62DA7B002A9E2B /* HTTPDateClient.swift */; };
+		79CE677F202CB4F80003C7CD /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CE677E202CB4F80003C7CD /* NotificationCenter.swift */; };
+		79CE6783202CD5A10003C7CD /* IAPDialogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CE6782202CD5A10003C7CD /* IAPDialogCell.swift */; };
+		79CE6787202CD91F0003C7CD /* IAPDialogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CE6786202CD91F0003C7CD /* IAPDialogCell.xib */; };
+		79CE6789202CF14E0003C7CD /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CE6788202CF14E0003C7CD /* UIFont.swift */; };
+		7F5C9E341F51F3AC002B41B4 /* IAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5C9E2A1F51F3AC002B41B4 /* IAP.framework */; };
+		7F5C9E391F51F3AC002B41B4 /* IAP_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9E381F51F3AC002B41B4 /* IAP_iOSTests.swift */; };
+		7F5C9E3B1F51F3AC002B41B4 /* IAP_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5C9E2D1F51F3AC002B41B4 /* IAP_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5C9E501F51F3DE002B41B4 /* IAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5C9E471F51F3DE002B41B4 /* IAP.framework */; };
+		7F5C9E551F51F3DE002B41B4 /* IAP_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9E541F51F3DE002B41B4 /* IAP_tvOSTests.swift */; };
+		7F5C9E571F51F3DE002B41B4 /* IAP_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5C9E491F51F3DE002B41B4 /* IAP_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5C9E6C1F51F3F0002B41B4 /* IAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5C9E631F51F3F0002B41B4 /* IAP.framework */; };
+		7F5C9E711F51F3F0002B41B4 /* IAP_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9E701F51F3F0002B41B4 /* IAP_macOSTests.swift */; };
+		7F5C9E731F51F3F0002B41B4 /* IAP_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5C9E651F51F3F0002B41B4 /* IAP_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5C9E861F51F577002B41B4 /* IAP-tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9E851F51F577002B41B4 /* IAP-tvOS.swift */; };
+		7F5C9E881F51F592002B41B4 /* IAP-macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9E871F51F592002B41B4 /* IAP-macOS.swift */; };
+		7F5C9E8A1F51F5A1002B41B4 /* IAP-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9E891F51F5A1002B41B4 /* IAP-iOS.swift */; };
+		7F852C6C1F51F780008D8ADD /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C6B1F51F780008D8ADD /* Store.swift */; };
+		7F852C6D1F51F780008D8ADD /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C6B1F51F780008D8ADD /* Store.swift */; };
+		7F852C6E1F51F780008D8ADD /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C6B1F51F780008D8ADD /* Store.swift */; };
+		7F852C701F51F7A1008D8ADD /* Availability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C6F1F51F7A1008D8ADD /* Availability.swift */; };
+		7F852C711F51F7A1008D8ADD /* Availability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C6F1F51F7A1008D8ADD /* Availability.swift */; };
+		7F852C721F51F7A1008D8ADD /* Availability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C6F1F51F7A1008D8ADD /* Availability.swift */; };
+		7F852C771F51F7E3008D8ADD /* ProductLifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C761F51F7E3008D8ADD /* ProductLifetime.swift */; };
+		7F852C781F51F7E3008D8ADD /* ProductLifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C761F51F7E3008D8ADD /* ProductLifetime.swift */; };
+		7F852C791F51F7E3008D8ADD /* ProductLifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C761F51F7E3008D8ADD /* ProductLifetime.swift */; };
+		7F852C7B1F51F7FD008D8ADD /* Purchaseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C7A1F51F7FD008D8ADD /* Purchaseable.swift */; };
+		7F852C7C1F51F7FD008D8ADD /* Purchaseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C7A1F51F7FD008D8ADD /* Purchaseable.swift */; };
+		7F852C7D1F51F7FE008D8ADD /* Purchaseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C7A1F51F7FD008D8ADD /* Purchaseable.swift */; };
+		7F852C7F1F51F87A008D8ADD /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C7E1F51F87A008D8ADD /* Notifications.swift */; };
+		7F852C801F51F87A008D8ADD /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C7E1F51F87A008D8ADD /* Notifications.swift */; };
+		7F852C811F51F87A008D8ADD /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C7E1F51F87A008D8ADD /* Notifications.swift */; };
+		7F852C831F51F88B008D8ADD /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C821F51F88B008D8ADD /* Typealiases.swift */; };
+		7F852C841F51F88B008D8ADD /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C821F51F88B008D8ADD /* Typealiases.swift */; };
+		7F852C851F51F88B008D8ADD /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C821F51F88B008D8ADD /* Typealiases.swift */; };
+		7FFCD9C81F65E92E00A03C58 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFCD9C71F65E92E00A03C58 /* Logging.swift */; };
+		7FFCD9C91F65E92E00A03C58 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFCD9C71F65E92E00A03C58 /* Logging.swift */; };
+		7FFCD9CA1F65E92E00A03C58 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFCD9C71F65E92E00A03C58 /* Logging.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F5C9E351F51F3AC002B41B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F5C9E1F1F51F37E002B41B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F5C9E291F51F3AC002B41B4;
+			remoteInfo = "IAP-iOS";
+		};
+		7F5C9E511F51F3DE002B41B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F5C9E1F1F51F37E002B41B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F5C9E461F51F3DE002B41B4;
+			remoteInfo = "IAP-tvOS";
+		};
+		7F5C9E6D1F51F3F0002B41B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F5C9E1F1F51F37E002B41B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F5C9E621F51F3F0002B41B4;
+			remoteInfo = "IAP-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		371AA99A1F631477003A3C63 /* crypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		371AA99B1F631477003A3C63 /* des.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		371AA99C1F631477003A3C63 /* modes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		371AA99D1F631477003A3C63 /* srp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		371AA99E1F631478003A3C63 /* pem2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		371AA99F1F631478003A3C63 /* ssl23.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		371AA9A01F631478003A3C63 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		371AA9A11F631478003A3C63 /* x509.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		371AA9A21F631478003A3C63 /* ec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		371AA9A31F631478003A3C63 /* opensslconf_ios_i386.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf_ios_i386.h; sourceTree = "<group>"; };
+		371AA9A41F631478003A3C63 /* opensslconf_tvos_arm64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf_tvos_arm64.h; sourceTree = "<group>"; };
+		371AA9A51F631479003A3C63 /* opensslconf_ios_arm64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf_ios_arm64.h; sourceTree = "<group>"; };
+		371AA9A61F631479003A3C63 /* krb5_asn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		371AA9A71F631479003A3C63 /* ecdsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		371AA9A81F631479003A3C63 /* evp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		371AA9A91F631479003A3C63 /* whrlpool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		371AA9AA1F631479003A3C63 /* opensslv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		371AA9AB1F631479003A3C63 /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		371AA9AC1F631479003A3C63 /* ecdh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		371AA9AD1F631479003A3C63 /* asn1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		371AA9AE1F63147A003A3C63 /* cmac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		371AA9AF1F63147A003A3C63 /* txt_db.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		371AA9B01F63147A003A3C63 /* x509_vfy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		371AA9B11F63147A003A3C63 /* blowfish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		371AA9B21F63147A003A3C63 /* dsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		371AA9B31F63147A003A3C63 /* rc2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		371AA9B41F63147A003A3C63 /* ui_compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		371AA9B51F63147B003A3C63 /* cms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		371AA9B61F63147B003A3C63 /* aes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		371AA9B71F63147B003A3C63 /* conf_api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		371AA9B81F63147B003A3C63 /* mdc2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		371AA9B91F63147B003A3C63 /* ocsp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		371AA9BA1F63147B003A3C63 /* ossl_typ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		371AA9BB1F63147B003A3C63 /* md4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		371AA9BC1F63147C003A3C63 /* asn1t.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		371AA9BD1F63147C003A3C63 /* e_os2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		371AA9BE1F63147D003A3C63 /* opensslconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		371AA9BF1F63147D003A3C63 /* dtls1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		371AA9C01F63147D003A3C63 /* objects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		371AA9C11F63147D003A3C63 /* bn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		371AA9C21F63147D003A3C63 /* asn1_mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		371AA9C31F63147D003A3C63 /* ripemd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		371AA9C41F63147E003A3C63 /* pkcs12.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		371AA9C51F63147E003A3C63 /* dh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		371AA9C61F63147E003A3C63 /* obj_mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		371AA9C71F63147E003A3C63 /* pem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		371AA9C81F63147E003A3C63 /* pkcs7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		371AA9C91F63147E003A3C63 /* ui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		371AA9CA1F63147E003A3C63 /* rc4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		371AA9CB1F63147F003A3C63 /* conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		371AA9CC1F63147F003A3C63 /* srtp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		371AA9CD1F63147F003A3C63 /* opensslconf_ios_armv7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf_ios_armv7.h; sourceTree = "<group>"; };
+		371AA9CE1F63147F003A3C63 /* symhacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		371AA9CF1F63147F003A3C63 /* lhash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		371AA9D01F63147F003A3C63 /* opensslconf_ios_armv7s.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf_ios_armv7s.h; sourceTree = "<group>"; };
+		371AA9D11F63147F003A3C63 /* rand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		371AA9D21F631480003A3C63 /* ssl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		371AA9D31F631480003A3C63 /* ssl2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		371AA9D41F631480003A3C63 /* x509v3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		371AA9D51F631480003A3C63 /* err.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		371AA9D61F631480003A3C63 /* opensslconf_ios_x86_64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf_ios_x86_64.h; sourceTree = "<group>"; };
+		371AA9D71F631480003A3C63 /* camellia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		371AA9D81F631480003A3C63 /* hmac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		371AA9D91F631480003A3C63 /* pqueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		371AA9DA1F631481003A3C63 /* ts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		371AA9DB1F631481003A3C63 /* bio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		371AA9DC1F631481003A3C63 /* rsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		371AA9DD1F631481003A3C63 /* sha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		371AA9DE1F631481003A3C63 /* cast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		371AA9DF1F631481003A3C63 /* ebcdic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		371AA9E01F631481003A3C63 /* seed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		371AA9E11F631482003A3C63 /* engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		371AA9E21F631482003A3C63 /* idea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		371AA9E31F631482003A3C63 /* opensslconf_tvos_x86_64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opensslconf_tvos_x86_64.h; sourceTree = "<group>"; };
+		371AA9E41F631482003A3C63 /* kssl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		371AA9E51F631482003A3C63 /* ssl3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		371AA9E61F631482003A3C63 /* des_old.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		371AA9E71F631482003A3C63 /* comp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		371AA9E81F631482003A3C63 /* safestack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		371AA9E91F631483003A3C63 /* tls1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		371AA9EA1F631483003A3C63 /* dso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		371AA9EB1F631483003A3C63 /* buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		373359791F63766B0066E08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		374D833B1F66EEBB00EA503C /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		374D833C1F66EED800EA503C /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		374D833E1F66EEE900EA503C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		374E27821F577C3C007000C7 /* IAPDialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPDialogViewController.swift; sourceTree = "<group>"; };
+		374E27911F58AFF9007000C7 /* ReceiptValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptValidator.swift; sourceTree = "<group>"; };
+		374E27951F58B35E007000C7 /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleIncRootCertificate.cer; sourceTree = "<group>"; };
+		374E27A01F58C528007000C7 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = lib/libssl.a; sourceTree = "<group>"; };
+		374E27A11F58C529007000C7 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = lib/libcrypto.a; sourceTree = "<group>"; };
+		375AD03B1F60759B00721D4C /* PurchasedProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedProduct.swift; sourceTree = "<group>"; };
+		378AC3831F61A1A600015CC3 /* IAPDialog.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IAPDialog.storyboard; sourceTree = "<group>"; };
+		378F6C421F68C6090063EF21 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		37924AA41F97FEB7005DB087 /* UserEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEvents.swift; sourceTree = "<group>"; };
+		37A14FAB1F58D4BA005C7F00 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		37A150A01F5A0180005C7F00 /* PurchaseReceipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseReceipt.swift; sourceTree = "<group>"; };
+		37A150A21F5A0243005C7F00 /* ASN1Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASN1Helper.swift; sourceTree = "<group>"; };
+		37A150A41F5A06A8005C7F00 /* OpenSSLObjectWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSSLObjectWrappers.swift; sourceTree = "<group>"; };
+		37DBC52D1F5EF9B900C4BE15 /* ProductsRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsRequestManager.swift; sourceTree = "<group>"; };
+		37DBC52F1F5F13FA00C4BE15 /* PaymentTransactionObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTransactionObserver.swift; sourceTree = "<group>"; };
+		37EC59CF1F67684C005F138F /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		75403B6C1F62FD1B00416CB2 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		75E0C2BC1F62DA7B002A9E2B /* HTTPDateClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDateClient.swift; sourceTree = "<group>"; };
+		75E0C2BD1F62DAA7002A9E2B /* SecureDateProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureDateProvider.swift; sourceTree = "<group>"; };
+		79CE677E202CB4F80003C7CD /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		79CE6782202CD5A10003C7CD /* IAPDialogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPDialogCell.swift; sourceTree = "<group>"; };
+		79CE6786202CD91F0003C7CD /* IAPDialogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IAPDialogCell.xib; sourceTree = "<group>"; };
+		79CE6788202CF14E0003C7CD /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		7F5C9E2A1F51F3AC002B41B4 /* IAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5C9E2D1F51F3AC002B41B4 /* IAP_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAP_iOS.h; sourceTree = "<group>"; };
+		7F5C9E2E1F51F3AC002B41B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5C9E331F51F3AC002B41B4 /* IAP-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IAP-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5C9E381F51F3AC002B41B4 /* IAP_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAP_iOSTests.swift; sourceTree = "<group>"; };
+		7F5C9E3A1F51F3AC002B41B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5C9E471F51F3DE002B41B4 /* IAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5C9E491F51F3DE002B41B4 /* IAP_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAP_tvOS.h; sourceTree = "<group>"; };
+		7F5C9E4A1F51F3DE002B41B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5C9E4F1F51F3DE002B41B4 /* IAP-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IAP-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5C9E541F51F3DE002B41B4 /* IAP_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAP_tvOSTests.swift; sourceTree = "<group>"; };
+		7F5C9E561F51F3DE002B41B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5C9E631F51F3F0002B41B4 /* IAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5C9E651F51F3F0002B41B4 /* IAP_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAP_macOS.h; sourceTree = "<group>"; };
+		7F5C9E661F51F3F0002B41B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5C9E6B1F51F3F0002B41B4 /* IAP-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IAP-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5C9E701F51F3F0002B41B4 /* IAP_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAP_macOSTests.swift; sourceTree = "<group>"; };
+		7F5C9E721F51F3F0002B41B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5C9E851F51F577002B41B4 /* IAP-tvOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IAP-tvOS.swift"; sourceTree = "<group>"; };
+		7F5C9E871F51F592002B41B4 /* IAP-macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IAP-macOS.swift"; sourceTree = "<group>"; };
+		7F5C9E891F51F5A1002B41B4 /* IAP-iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IAP-iOS.swift"; sourceTree = "<group>"; };
+		7F852C6B1F51F780008D8ADD /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		7F852C6F1F51F7A1008D8ADD /* Availability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Availability.swift; sourceTree = "<group>"; };
+		7F852C761F51F7E3008D8ADD /* ProductLifetime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductLifetime.swift; sourceTree = "<group>"; };
+		7F852C7A1F51F7FD008D8ADD /* Purchaseable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchaseable.swift; sourceTree = "<group>"; };
+		7F852C7E1F51F87A008D8ADD /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		7F852C821F51F88B008D8ADD /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		7FFCD9C71F65E92E00A03C58 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F5C9E261F51F3AC002B41B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374E27A21F58C54C007000C7 /* libcrypto.a in Frameworks */,
+				374E27A31F58C54C007000C7 /* libssl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E301F51F3AC002B41B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5C9E341F51F3AC002B41B4 /* IAP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E431F51F3DE002B41B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E4C1F51F3DE002B41B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5C9E501F51F3DE002B41B4 /* IAP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E5F1F51F3F0002B41B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E681F51F3F0002B41B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5C9E6C1F51F3F0002B41B4 /* IAP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		374D833A1F66EEA700EA503C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				79CE677E202CB4F80003C7CD /* NotificationCenter.swift */,
+				374D833B1F66EEBB00EA503C /* UIApplication.swift */,
+				374D833E1F66EEE900EA503C /* UIColor.swift */,
+				79CE6788202CF14E0003C7CD /* UIFont.swift */,
+				374D833C1F66EED800EA503C /* UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		374E27961F58B86C007000C7 /* OpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				371AA9B61F63147B003A3C63 /* aes.h */,
+				371AA9C21F63147D003A3C63 /* asn1_mac.h */,
+				371AA9AD1F631479003A3C63 /* asn1.h */,
+				371AA9BC1F63147C003A3C63 /* asn1t.h */,
+				371AA9DB1F631481003A3C63 /* bio.h */,
+				371AA9B11F63147A003A3C63 /* blowfish.h */,
+				371AA9C11F63147D003A3C63 /* bn.h */,
+				371AA9EB1F631483003A3C63 /* buffer.h */,
+				371AA9D71F631480003A3C63 /* camellia.h */,
+				371AA9DE1F631481003A3C63 /* cast.h */,
+				371AA9AE1F63147A003A3C63 /* cmac.h */,
+				371AA9B51F63147B003A3C63 /* cms.h */,
+				371AA9E71F631482003A3C63 /* comp.h */,
+				371AA9B71F63147B003A3C63 /* conf_api.h */,
+				371AA9CB1F63147F003A3C63 /* conf.h */,
+				371AA99A1F631477003A3C63 /* crypto.h */,
+				371AA9E61F631482003A3C63 /* des_old.h */,
+				371AA99B1F631477003A3C63 /* des.h */,
+				371AA9C51F63147E003A3C63 /* dh.h */,
+				371AA9B21F63147A003A3C63 /* dsa.h */,
+				371AA9EA1F631483003A3C63 /* dso.h */,
+				371AA9BF1F63147D003A3C63 /* dtls1.h */,
+				371AA9BD1F63147C003A3C63 /* e_os2.h */,
+				371AA9DF1F631481003A3C63 /* ebcdic.h */,
+				371AA9A21F631478003A3C63 /* ec.h */,
+				371AA9AC1F631479003A3C63 /* ecdh.h */,
+				371AA9A71F631479003A3C63 /* ecdsa.h */,
+				371AA9E11F631482003A3C63 /* engine.h */,
+				371AA9D51F631480003A3C63 /* err.h */,
+				371AA9A81F631479003A3C63 /* evp.h */,
+				371AA9D81F631480003A3C63 /* hmac.h */,
+				371AA9E21F631482003A3C63 /* idea.h */,
+				371AA9A61F631479003A3C63 /* krb5_asn.h */,
+				371AA9E41F631482003A3C63 /* kssl.h */,
+				371AA9CF1F63147F003A3C63 /* lhash.h */,
+				371AA9BB1F63147B003A3C63 /* md4.h */,
+				371AA9AB1F631479003A3C63 /* md5.h */,
+				371AA9B81F63147B003A3C63 /* mdc2.h */,
+				371AA99C1F631477003A3C63 /* modes.h */,
+				371AA9C61F63147E003A3C63 /* obj_mac.h */,
+				371AA9C01F63147D003A3C63 /* objects.h */,
+				371AA9B91F63147B003A3C63 /* ocsp.h */,
+				371AA9A51F631479003A3C63 /* opensslconf_ios_arm64.h */,
+				371AA9CD1F63147F003A3C63 /* opensslconf_ios_armv7.h */,
+				371AA9D01F63147F003A3C63 /* opensslconf_ios_armv7s.h */,
+				371AA9A31F631478003A3C63 /* opensslconf_ios_i386.h */,
+				371AA9D61F631480003A3C63 /* opensslconf_ios_x86_64.h */,
+				371AA9A41F631478003A3C63 /* opensslconf_tvos_arm64.h */,
+				371AA9E31F631482003A3C63 /* opensslconf_tvos_x86_64.h */,
+				371AA9BE1F63147D003A3C63 /* opensslconf.h */,
+				371AA9AA1F631479003A3C63 /* opensslv.h */,
+				371AA9BA1F63147B003A3C63 /* ossl_typ.h */,
+				371AA9C71F63147E003A3C63 /* pem.h */,
+				371AA99E1F631478003A3C63 /* pem2.h */,
+				371AA9C81F63147E003A3C63 /* pkcs7.h */,
+				371AA9C41F63147E003A3C63 /* pkcs12.h */,
+				371AA9D91F631480003A3C63 /* pqueue.h */,
+				371AA9D11F63147F003A3C63 /* rand.h */,
+				371AA9B31F63147A003A3C63 /* rc2.h */,
+				371AA9CA1F63147E003A3C63 /* rc4.h */,
+				371AA9C31F63147D003A3C63 /* ripemd.h */,
+				371AA9DC1F631481003A3C63 /* rsa.h */,
+				371AA9E81F631482003A3C63 /* safestack.h */,
+				371AA9E01F631481003A3C63 /* seed.h */,
+				371AA9DD1F631481003A3C63 /* sha.h */,
+				371AA99D1F631477003A3C63 /* srp.h */,
+				371AA9CC1F63147F003A3C63 /* srtp.h */,
+				371AA9D21F631480003A3C63 /* ssl.h */,
+				371AA9D31F631480003A3C63 /* ssl2.h */,
+				371AA9E51F631482003A3C63 /* ssl3.h */,
+				371AA99F1F631478003A3C63 /* ssl23.h */,
+				371AA9A01F631478003A3C63 /* stack.h */,
+				371AA9CE1F63147F003A3C63 /* symhacks.h */,
+				371AA9E91F631483003A3C63 /* tls1.h */,
+				371AA9DA1F631481003A3C63 /* ts.h */,
+				371AA9AF1F63147A003A3C63 /* txt_db.h */,
+				371AA9B41F63147A003A3C63 /* ui_compat.h */,
+				371AA9C91F63147E003A3C63 /* ui.h */,
+				371AA9A91F631479003A3C63 /* whrlpool.h */,
+				371AA9B01F63147A003A3C63 /* x509_vfy.h */,
+				371AA9A11F631478003A3C63 /* x509.h */,
+				371AA9D41F631480003A3C63 /* x509v3.h */,
+				37A14FAB1F58D4BA005C7F00 /* module.modulemap */,
+				374E27A11F58C529007000C7 /* libcrypto.a */,
+				374E27A01F58C528007000C7 /* libssl.a */,
+			);
+			path = OpenSSL;
+			sourceTree = "<group>";
+		};
+		374E27991F58B895007000C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		378F6C411F68C5F70063EF21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				378F6C421F68C6090063EF21 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37A1509F1F5A0166005C7F00 /* Receipt Validation */ = {
+			isa = PBXGroup;
+			children = (
+				37A150A21F5A0243005C7F00 /* ASN1Helper.swift */,
+				37A150A41F5A06A8005C7F00 /* OpenSSLObjectWrappers.swift */,
+				375AD03B1F60759B00721D4C /* PurchasedProduct.swift */,
+				37A150A01F5A0180005C7F00 /* PurchaseReceipt.swift */,
+				374E27911F58AFF9007000C7 /* ReceiptValidator.swift */,
+			);
+			path = "Receipt Validation";
+			sourceTree = "<group>";
+		};
+		37DBC52B1F5EF6D600C4BE15 /* Certificates */ = {
+			isa = PBXGroup;
+			children = (
+				374E27951F58B35E007000C7 /* AppleIncRootCertificate.cer */,
+			);
+			path = Certificates;
+			sourceTree = "<group>";
+		};
+		37DBC52C1F5EF99600C4BE15 /* Product Request */ = {
+			isa = PBXGroup;
+			children = (
+				37DBC52F1F5F13FA00C4BE15 /* PaymentTransactionObserver.swift */,
+				37DBC52D1F5EF9B900C4BE15 /* ProductsRequestManager.swift */,
+			);
+			path = "Product Request";
+			sourceTree = "<group>";
+		};
+		75E0C2BA1F62DA7B002A9E2B /* Dates */ = {
+			isa = PBXGroup;
+			children = (
+				75E0C2BC1F62DA7B002A9E2B /* HTTPDateClient.swift */,
+				75E0C2BD1F62DAA7002A9E2B /* SecureDateProvider.swift */,
+			);
+			path = Dates;
+			sourceTree = "<group>";
+		};
+		7F5C9E1E1F51F37E002B41B4 = {
+			isa = PBXGroup;
+			children = (
+				7F5C9E7D1F51F42F002B41B4 /* Core */,
+				7F5C9E7A1F51F42F002B41B4 /* iOS */,
+				7F5C9E7C1F51F42F002B41B4 /* macOS */,
+				7F5C9E7B1F51F42F002B41B4 /* tvOS */,
+				7F5C9E2B1F51F3AC002B41B4 /* Products */,
+				374E27991F58B895007000C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F5C9E2B1F51F3AC002B41B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C9E2A1F51F3AC002B41B4 /* IAP.framework */,
+				7F5C9E331F51F3AC002B41B4 /* IAP-iOSTests.xctest */,
+				7F5C9E471F51F3DE002B41B4 /* IAP.framework */,
+				7F5C9E4F1F51F3DE002B41B4 /* IAP-tvOSTests.xctest */,
+				7F5C9E631F51F3F0002B41B4 /* IAP.framework */,
+				7F5C9E6B1F51F3F0002B41B4 /* IAP-macOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F5C9E2C1F51F3AC002B41B4 /* IAP-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C9E2D1F51F3AC002B41B4 /* IAP_iOS.h */,
+				7F5C9E2E1F51F3AC002B41B4 /* Info.plist */,
+			);
+			path = "IAP-iOS";
+			sourceTree = "<group>";
+		};
+		7F5C9E371F51F3AC002B41B4 /* IAP-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C9E381F51F3AC002B41B4 /* IAP_iOSTests.swift */,
+				7F5C9E3A1F51F3AC002B41B4 /* Info.plist */,
+			);
+			path = "IAP-iOSTests";
+			sourceTree = "<group>";
+		};
+		7F5C9E481F51F3DE002B41B4 /* IAP-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C9E491F51F3DE002B41B4 /* IAP_tvOS.h */,
+				7F5C9E4A1F51F3DE002B41B4 /* Info.plist */,
+			);
+			path = "IAP-tvOS";
+			sourceTree = "<group>";
+		};
+		7F5C9E531F51F3DE002B41B4 /* IAP-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C9E541F51F3DE002B41B4 /* IAP_tvOSTests.swift */,
+				7F5C9E561F51F3DE002B41B4 /* Info.plist */,
+			);
+			path = "IAP-tvOSTests";
+			sourceTree = "<group>";
+		};
+		7F5C9E641F51F3F0002B41B4 /* IAP-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C9E651F51F3F0002B41B4 /* IAP_macOS.h */,
+				7F5C9E661F51F3F0002B41B4 /* Info.plist */,
+			);
+			path = "IAP-macOS";
+			sourceTree = "<group>";
+		};
+		7F5C9E6F1F51F3F0002B41B4 /* IAP-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C9E701F51F3F0002B41B4 /* IAP_macOSTests.swift */,
+				7F5C9E721F51F3F0002B41B4 /* Info.plist */,
+			);
+			path = "IAP-macOSTests";
+			sourceTree = "<group>";
+		};
+		7F5C9E7A1F51F42F002B41B4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				374E27961F58B86C007000C7 /* OpenSSL */,
+				7F5C9E7E1F51F477002B41B4 /* Source */,
+				7F5C9E2C1F51F3AC002B41B4 /* IAP-iOS */,
+				7F5C9E371F51F3AC002B41B4 /* IAP-iOSTests */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		7F5C9E7B1F51F42F002B41B4 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C9E801F51F48B002B41B4 /* Source */,
+				7F5C9E481F51F3DE002B41B4 /* IAP-tvOS */,
+				7F5C9E531F51F3DE002B41B4 /* IAP-tvOSTests */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		7F5C9E7C1F51F42F002B41B4 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C9E7F1F51F481002B41B4 /* Source */,
+				7F5C9E641F51F3F0002B41B4 /* IAP-macOS */,
+				7F5C9E6F1F51F3F0002B41B4 /* IAP-macOSTests */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		7F5C9E7D1F51F42F002B41B4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7F852C6F1F51F7A1008D8ADD /* Availability.swift */,
+				37DBC52B1F5EF6D600C4BE15 /* Certificates */,
+				75E0C2BA1F62DA7B002A9E2B /* Dates */,
+				75403B6C1F62FD1B00416CB2 /* Keychain.swift */,
+				7F852C7E1F51F87A008D8ADD /* Notifications.swift */,
+				37DBC52C1F5EF99600C4BE15 /* Product Request */,
+				7F852C761F51F7E3008D8ADD /* ProductLifetime.swift */,
+				7F852C7A1F51F7FD008D8ADD /* Purchaseable.swift */,
+				37A1509F1F5A0166005C7F00 /* Receipt Validation */,
+				7F852C6B1F51F780008D8ADD /* Store.swift */,
+				7F852C821F51F88B008D8ADD /* Typealiases.swift */,
+				7FFCD9C61F65E90000A03C58 /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7F5C9E7E1F51F477002B41B4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				378F6C411F68C5F70063EF21 /* Resources */,
+				374D833A1F66EEA700EA503C /* Extensions */,
+				7F5C9E891F51F5A1002B41B4 /* IAP-iOS.swift */,
+				374E27821F577C3C007000C7 /* IAPDialogViewController.swift */,
+				378AC3831F61A1A600015CC3 /* IAPDialog.storyboard */,
+				79CE6782202CD5A10003C7CD /* IAPDialogCell.swift */,
+				79CE6786202CD91F0003C7CD /* IAPDialogCell.xib */,
+				373359791F63766B0066E08E /* Assets.xcassets */,
+				37EC59CF1F67684C005F138F /* RoundedButton.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7F5C9E7F1F51F481002B41B4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C9E871F51F592002B41B4 /* IAP-macOS.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7F5C9E801F51F48B002B41B4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C9E851F51F577002B41B4 /* IAP-tvOS.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7FFCD9C61F65E90000A03C58 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7FFCD9C71F65E92E00A03C58 /* Logging.swift */,
+				37924AA41F97FEB7005DB087 /* UserEvents.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F5C9E271F51F3AC002B41B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371AAA401F631629003A3C63 /* aes.h in Headers */,
+				371AAA411F631629003A3C63 /* asn1_mac.h in Headers */,
+				371AAA421F631629003A3C63 /* asn1.h in Headers */,
+				371AAA431F631629003A3C63 /* asn1t.h in Headers */,
+				371AAA441F631629003A3C63 /* bio.h in Headers */,
+				371AAA451F631629003A3C63 /* blowfish.h in Headers */,
+				371AAA461F631629003A3C63 /* bn.h in Headers */,
+				371AAA471F631629003A3C63 /* buffer.h in Headers */,
+				371AAA481F631629003A3C63 /* camellia.h in Headers */,
+				371AAA491F631629003A3C63 /* cast.h in Headers */,
+				371AAA4A1F631629003A3C63 /* cmac.h in Headers */,
+				371AAA4B1F631629003A3C63 /* cms.h in Headers */,
+				371AAA4C1F631629003A3C63 /* comp.h in Headers */,
+				371AAA4D1F631629003A3C63 /* conf_api.h in Headers */,
+				371AAA4E1F631629003A3C63 /* conf.h in Headers */,
+				371AAA4F1F631629003A3C63 /* crypto.h in Headers */,
+				371AAA501F631629003A3C63 /* des_old.h in Headers */,
+				371AAA511F631629003A3C63 /* des.h in Headers */,
+				371AAA521F631629003A3C63 /* dh.h in Headers */,
+				371AAA531F631629003A3C63 /* dsa.h in Headers */,
+				371AAA541F631629003A3C63 /* dso.h in Headers */,
+				371AAA551F631629003A3C63 /* dtls1.h in Headers */,
+				371AAA561F631629003A3C63 /* e_os2.h in Headers */,
+				371AAA571F631629003A3C63 /* ebcdic.h in Headers */,
+				371AAA581F631629003A3C63 /* ec.h in Headers */,
+				371AAA591F631629003A3C63 /* ecdh.h in Headers */,
+				371AAA5A1F631629003A3C63 /* ecdsa.h in Headers */,
+				371AAA5B1F631629003A3C63 /* engine.h in Headers */,
+				371AAA5C1F631629003A3C63 /* err.h in Headers */,
+				371AAA5D1F631629003A3C63 /* evp.h in Headers */,
+				371AAA5E1F631629003A3C63 /* hmac.h in Headers */,
+				371AAA5F1F631629003A3C63 /* idea.h in Headers */,
+				371AAA601F631629003A3C63 /* krb5_asn.h in Headers */,
+				371AAA611F631629003A3C63 /* kssl.h in Headers */,
+				371AAA621F631629003A3C63 /* lhash.h in Headers */,
+				371AAA631F631629003A3C63 /* md4.h in Headers */,
+				371AAA641F631629003A3C63 /* md5.h in Headers */,
+				371AAA651F631629003A3C63 /* mdc2.h in Headers */,
+				371AAA661F631629003A3C63 /* modes.h in Headers */,
+				371AAA671F631629003A3C63 /* obj_mac.h in Headers */,
+				371AAA681F631629003A3C63 /* objects.h in Headers */,
+				371AAA691F631629003A3C63 /* ocsp.h in Headers */,
+				371AAA6A1F631629003A3C63 /* opensslconf_ios_arm64.h in Headers */,
+				371AAA6B1F631629003A3C63 /* opensslconf_ios_armv7.h in Headers */,
+				371AAA6C1F631629003A3C63 /* opensslconf_ios_armv7s.h in Headers */,
+				371AAA6D1F631629003A3C63 /* opensslconf_ios_i386.h in Headers */,
+				371AAA6E1F631629003A3C63 /* opensslconf_ios_x86_64.h in Headers */,
+				371AAA6F1F631629003A3C63 /* opensslconf_tvos_arm64.h in Headers */,
+				371AAA701F631629003A3C63 /* opensslconf_tvos_x86_64.h in Headers */,
+				371AAA711F631629003A3C63 /* opensslconf.h in Headers */,
+				371AAA721F631629003A3C63 /* opensslv.h in Headers */,
+				371AAA731F631629003A3C63 /* ossl_typ.h in Headers */,
+				371AAA741F631629003A3C63 /* pem.h in Headers */,
+				371AAA751F631629003A3C63 /* pem2.h in Headers */,
+				371AAA761F631629003A3C63 /* pkcs7.h in Headers */,
+				371AAA771F631629003A3C63 /* pkcs12.h in Headers */,
+				371AAA781F631629003A3C63 /* pqueue.h in Headers */,
+				371AAA791F631629003A3C63 /* rand.h in Headers */,
+				371AAA7A1F631629003A3C63 /* rc2.h in Headers */,
+				371AAA7B1F631629003A3C63 /* rc4.h in Headers */,
+				371AAA7C1F631629003A3C63 /* ripemd.h in Headers */,
+				371AAA7D1F631629003A3C63 /* rsa.h in Headers */,
+				371AAA7E1F631629003A3C63 /* safestack.h in Headers */,
+				371AAA7F1F631629003A3C63 /* seed.h in Headers */,
+				371AAA801F631629003A3C63 /* sha.h in Headers */,
+				371AAA811F631629003A3C63 /* srp.h in Headers */,
+				371AAA821F631629003A3C63 /* srtp.h in Headers */,
+				371AAA831F631629003A3C63 /* ssl.h in Headers */,
+				371AAA841F631629003A3C63 /* ssl2.h in Headers */,
+				371AAA851F631629003A3C63 /* ssl3.h in Headers */,
+				371AAA861F631629003A3C63 /* ssl23.h in Headers */,
+				371AAA871F631629003A3C63 /* stack.h in Headers */,
+				371AAA881F631629003A3C63 /* symhacks.h in Headers */,
+				371AAA891F631629003A3C63 /* tls1.h in Headers */,
+				371AAA8A1F631629003A3C63 /* ts.h in Headers */,
+				371AAA8B1F631629003A3C63 /* txt_db.h in Headers */,
+				371AAA8C1F631629003A3C63 /* ui_compat.h in Headers */,
+				371AAA8D1F631629003A3C63 /* ui.h in Headers */,
+				371AAA8E1F631629003A3C63 /* whrlpool.h in Headers */,
+				371AAA8F1F631629003A3C63 /* x509_vfy.h in Headers */,
+				371AAA901F631629003A3C63 /* x509.h in Headers */,
+				371AAA911F631629003A3C63 /* x509v3.h in Headers */,
+				371AAA921F631629003A3C63 /* module.modulemap in Headers */,
+				7F5C9E3B1F51F3AC002B41B4 /* IAP_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E441F51F3DE002B41B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5C9E571F51F3DE002B41B4 /* IAP_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E601F51F3F0002B41B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5C9E731F51F3F0002B41B4 /* IAP_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F5C9E291F51F3AC002B41B4 /* IAP-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5C9E3C1F51F3AC002B41B4 /* Build configuration list for PBXNativeTarget "IAP-iOS" */;
+			buildPhases = (
+				7F5C9E251F51F3AC002B41B4 /* Sources */,
+				7F5C9E261F51F3AC002B41B4 /* Frameworks */,
+				7F5C9E271F51F3AC002B41B4 /* Headers */,
+				7F5C9E281F51F3AC002B41B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IAP-iOS";
+			productName = "IAP-iOS";
+			productReference = 7F5C9E2A1F51F3AC002B41B4 /* IAP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F5C9E321F51F3AC002B41B4 /* IAP-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5C9E3F1F51F3AC002B41B4 /* Build configuration list for PBXNativeTarget "IAP-iOSTests" */;
+			buildPhases = (
+				7F5C9E2F1F51F3AC002B41B4 /* Sources */,
+				7F5C9E301F51F3AC002B41B4 /* Frameworks */,
+				7F5C9E311F51F3AC002B41B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F5C9E361F51F3AC002B41B4 /* PBXTargetDependency */,
+			);
+			name = "IAP-iOSTests";
+			productName = "IAP-iOSTests";
+			productReference = 7F5C9E331F51F3AC002B41B4 /* IAP-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F5C9E461F51F3DE002B41B4 /* IAP-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5C9E581F51F3DE002B41B4 /* Build configuration list for PBXNativeTarget "IAP-tvOS" */;
+			buildPhases = (
+				7F5C9E421F51F3DE002B41B4 /* Sources */,
+				7F5C9E431F51F3DE002B41B4 /* Frameworks */,
+				7F5C9E441F51F3DE002B41B4 /* Headers */,
+				7F5C9E451F51F3DE002B41B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IAP-tvOS";
+			productName = "IAP-tvOS";
+			productReference = 7F5C9E471F51F3DE002B41B4 /* IAP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F5C9E4E1F51F3DE002B41B4 /* IAP-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5C9E5B1F51F3DE002B41B4 /* Build configuration list for PBXNativeTarget "IAP-tvOSTests" */;
+			buildPhases = (
+				7F5C9E4B1F51F3DE002B41B4 /* Sources */,
+				7F5C9E4C1F51F3DE002B41B4 /* Frameworks */,
+				7F5C9E4D1F51F3DE002B41B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F5C9E521F51F3DE002B41B4 /* PBXTargetDependency */,
+			);
+			name = "IAP-tvOSTests";
+			productName = "IAP-tvOSTests";
+			productReference = 7F5C9E4F1F51F3DE002B41B4 /* IAP-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F5C9E621F51F3F0002B41B4 /* IAP-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5C9E741F51F3F0002B41B4 /* Build configuration list for PBXNativeTarget "IAP-macOS" */;
+			buildPhases = (
+				7F5C9E5E1F51F3F0002B41B4 /* Sources */,
+				7F5C9E5F1F51F3F0002B41B4 /* Frameworks */,
+				7F5C9E601F51F3F0002B41B4 /* Headers */,
+				7F5C9E611F51F3F0002B41B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IAP-macOS";
+			productName = "IAP-macOS";
+			productReference = 7F5C9E631F51F3F0002B41B4 /* IAP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F5C9E6A1F51F3F0002B41B4 /* IAP-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5C9E771F51F3F0002B41B4 /* Build configuration list for PBXNativeTarget "IAP-macOSTests" */;
+			buildPhases = (
+				7F5C9E671F51F3F0002B41B4 /* Sources */,
+				7F5C9E681F51F3F0002B41B4 /* Frameworks */,
+				7F5C9E691F51F3F0002B41B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F5C9E6E1F51F3F0002B41B4 /* PBXTargetDependency */,
+			);
+			name = "IAP-macOSTests";
+			productName = "IAP-macOSTests";
+			productReference = 7F5C9E6B1F51F3F0002B41B4 /* IAP-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F5C9E1F1F51F37E002B41B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Black Pixel Luminance";
+				TargetAttributes = {
+					7F5C9E291F51F3AC002B41B4 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+					};
+					7F5C9E321F51F3AC002B41B4 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					7F5C9E461F51F3DE002B41B4 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+					};
+					7F5C9E4E1F51F3DE002B41B4 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					7F5C9E621F51F3F0002B41B4 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+					};
+					7F5C9E6A1F51F3F0002B41B4 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 7F5C9E221F51F37E002B41B4 /* Build configuration list for PBXProject "IAP" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F5C9E1E1F51F37E002B41B4;
+			productRefGroup = 7F5C9E2B1F51F3AC002B41B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F5C9E291F51F3AC002B41B4 /* IAP-iOS */,
+				7F5C9E321F51F3AC002B41B4 /* IAP-iOSTests */,
+				7F5C9E621F51F3F0002B41B4 /* IAP-macOS */,
+				7F5C9E6A1F51F3F0002B41B4 /* IAP-macOSTests */,
+				7F5C9E461F51F3DE002B41B4 /* IAP-tvOS */,
+				7F5C9E4E1F51F3DE002B41B4 /* IAP-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F5C9E281F51F3AC002B41B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A1509A1F59D82A005C7F00 /* AppleIncRootCertificate.cer in Resources */,
+				79CE6787202CD91F0003C7CD /* IAPDialogCell.xib in Resources */,
+				378F6C431F68C6230063EF21 /* Localizable.strings in Resources */,
+				3733597A1F63766B0066E08E /* Assets.xcassets in Resources */,
+				378AC3841F61A1A600015CC3 /* IAPDialog.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E311F51F3AC002B41B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E451F51F3DE002B41B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A1509C1F59D82C005C7F00 /* AppleIncRootCertificate.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E4D1F51F3DE002B41B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E611F51F3F0002B41B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A1509B1F59D82B005C7F00 /* AppleIncRootCertificate.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E691F51F3F0002B41B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F5C9E251F51F3AC002B41B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374D83401F66FFBA00EA503C /* UIApplication.swift in Sources */,
+				7F852C831F51F88B008D8ADD /* Typealiases.swift in Sources */,
+				375AD03C1F60759B00721D4C /* PurchasedProduct.swift in Sources */,
+				375AD02E1F6057B300721D4C /* ReceiptValidator.swift in Sources */,
+				37DBC52E1F5EF9B900C4BE15 /* ProductsRequestManager.swift in Sources */,
+				37A150A51F5A06A8005C7F00 /* OpenSSLObjectWrappers.swift in Sources */,
+				37A150A31F5A0243005C7F00 /* ASN1Helper.swift in Sources */,
+				374D833D1F66EED800EA503C /* UIImage.swift in Sources */,
+				374D833F1F66EEE900EA503C /* UIColor.swift in Sources */,
+				79CE677F202CB4F80003C7CD /* NotificationCenter.swift in Sources */,
+				374E27831F577C3C007000C7 /* IAPDialogViewController.swift in Sources */,
+				7F852C771F51F7E3008D8ADD /* ProductLifetime.swift in Sources */,
+				75403B6D1F62FD1B00416CB2 /* Keychain.swift in Sources */,
+				75E0C2BE1F62DAA7002A9E2B /* SecureDateProvider.swift in Sources */,
+				37A150A11F5A0180005C7F00 /* PurchaseReceipt.swift in Sources */,
+				7FFCD9C81F65E92E00A03C58 /* Logging.swift in Sources */,
+				7F852C7F1F51F87A008D8ADD /* Notifications.swift in Sources */,
+				7F5C9E8A1F51F5A1002B41B4 /* IAP-iOS.swift in Sources */,
+				7F852C701F51F7A1008D8ADD /* Availability.swift in Sources */,
+				7F852C7B1F51F7FD008D8ADD /* Purchaseable.swift in Sources */,
+				37EC59D01F67684C005F138F /* RoundedButton.swift in Sources */,
+				7F852C6C1F51F780008D8ADD /* Store.swift in Sources */,
+				37DBC5301F5F13FA00C4BE15 /* PaymentTransactionObserver.swift in Sources */,
+				79CE6789202CF14E0003C7CD /* UIFont.swift in Sources */,
+				75E0C2C41F62DAF0002A9E2B /* HTTPDateClient.swift in Sources */,
+				37924AA51F97FEB7005DB087 /* UserEvents.swift in Sources */,
+				79CE6783202CD5A10003C7CD /* IAPDialogCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E2F1F51F3AC002B41B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5C9E391F51F3AC002B41B4 /* IAP_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E421F51F3DE002B41B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F852C851F51F88B008D8ADD /* Typealiases.swift in Sources */,
+				7F852C791F51F7E3008D8ADD /* ProductLifetime.swift in Sources */,
+				7F852C811F51F87A008D8ADD /* Notifications.swift in Sources */,
+				375AD0301F6057B500721D4C /* ReceiptValidator.swift in Sources */,
+				75403B6F1F62FD1B00416CB2 /* Keychain.swift in Sources */,
+				7F5C9E861F51F577002B41B4 /* IAP-tvOS.swift in Sources */,
+				7F852C721F51F7A1008D8ADD /* Availability.swift in Sources */,
+				7FFCD9CA1F65E92E00A03C58 /* Logging.swift in Sources */,
+				75E0C2C61F62DAF1002A9E2B /* HTTPDateClient.swift in Sources */,
+				7F852C7D1F51F7FE008D8ADD /* Purchaseable.swift in Sources */,
+				7F852C6E1F51F780008D8ADD /* Store.swift in Sources */,
+				75E0C2C01F62DAA7002A9E2B /* SecureDateProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E4B1F51F3DE002B41B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5C9E551F51F3DE002B41B4 /* IAP_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E5E1F51F3F0002B41B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F852C841F51F88B008D8ADD /* Typealiases.swift in Sources */,
+				7F852C781F51F7E3008D8ADD /* ProductLifetime.swift in Sources */,
+				7F852C801F51F87A008D8ADD /* Notifications.swift in Sources */,
+				375AD02F1F6057B400721D4C /* ReceiptValidator.swift in Sources */,
+				75403B6E1F62FD1B00416CB2 /* Keychain.swift in Sources */,
+				7F5C9E881F51F592002B41B4 /* IAP-macOS.swift in Sources */,
+				7F852C711F51F7A1008D8ADD /* Availability.swift in Sources */,
+				7FFCD9C91F65E92E00A03C58 /* Logging.swift in Sources */,
+				75E0C2C51F62DAF0002A9E2B /* HTTPDateClient.swift in Sources */,
+				7F852C7C1F51F7FD008D8ADD /* Purchaseable.swift in Sources */,
+				7F852C6D1F51F780008D8ADD /* Store.swift in Sources */,
+				75E0C2BF1F62DAA7002A9E2B /* SecureDateProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C9E671F51F3F0002B41B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5C9E711F51F3F0002B41B4 /* IAP_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F5C9E361F51F3AC002B41B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F5C9E291F51F3AC002B41B4 /* IAP-iOS */;
+			targetProxy = 7F5C9E351F51F3AC002B41B4 /* PBXContainerItemProxy */;
+		};
+		7F5C9E521F51F3DE002B41B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F5C9E461F51F3DE002B41B4 /* IAP-tvOS */;
+			targetProxy = 7F5C9E511F51F3DE002B41B4 /* PBXContainerItemProxy */;
+		};
+		7F5C9E6E1F51F3F0002B41B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F5C9E621F51F3F0002B41B4 /* IAP-macOS */;
+			targetProxy = 7F5C9E6D1F51F3F0002B41B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F5C9E231F51F37E002B41B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		7F5C9E241F51F37E002B41B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+			};
+			name = Release;
+		};
+		7F5C9E3D1F51F3AC002B41B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 432ZXYXDNY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS/OpenSSL/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/IAP-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS/OpenSSL/lib/",
+				);
+				MODULEMAP_FILE = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackpixel.IAP-iOS";
+				PRODUCT_NAME = IAP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/iOS/OpenSSL/**";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F5C9E3E1F51F3AC002B41B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 432ZXYXDNY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS/OpenSSL/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/IAP-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS/OpenSSL/lib/",
+				);
+				MODULEMAP_FILE = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackpixel.IAP-iOS";
+				PRODUCT_NAME = IAP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/iOS/OpenSSL/**";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F5C9E401F51F3AC002B41B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 432ZXYXDNY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/IAP-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackpixel.IAP-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F5C9E411F51F3AC002B41B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 432ZXYXDNY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/IAP-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackpixel.IAP-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F5C9E591F51F3DE002B41B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 432ZXYXDNY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/tvOS/IAP-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackpixel.IAP-tvOS";
+				PRODUCT_NAME = IAP;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F5C9E5A1F51F3DE002B41B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 432ZXYXDNY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/tvOS/IAP-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackpixel.IAP-tvOS";
+				PRODUCT_NAME = IAP;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F5C9E5C1F51F3DE002B41B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 432ZXYXDNY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/tvOS/IAP-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackpixel.IAP-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		7F5C9E5D1F51F3DE002B41B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 432ZXYXDNY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/tvOS/IAP-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackpixel.IAP-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F5C9E751F51F3F0002B41B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 432ZXYXDNY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/macOS/IAP-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackpixel.IAP-macOS";
+				PRODUCT_NAME = IAP;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F5C9E761F51F3F0002B41B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 432ZXYXDNY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/macOS/IAP-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackpixel.IAP-macOS";
+				PRODUCT_NAME = IAP;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F5C9E781F51F3F0002B41B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 432ZXYXDNY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/macOS/IAP-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackpixel.IAP-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		7F5C9E791F51F3F0002B41B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 432ZXYXDNY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/macOS/IAP-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackpixel.IAP-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F5C9E221F51F37E002B41B4 /* Build configuration list for PBXProject "IAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5C9E231F51F37E002B41B4 /* Debug */,
+				7F5C9E241F51F37E002B41B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5C9E3C1F51F3AC002B41B4 /* Build configuration list for PBXNativeTarget "IAP-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5C9E3D1F51F3AC002B41B4 /* Debug */,
+				7F5C9E3E1F51F3AC002B41B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5C9E3F1F51F3AC002B41B4 /* Build configuration list for PBXNativeTarget "IAP-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5C9E401F51F3AC002B41B4 /* Debug */,
+				7F5C9E411F51F3AC002B41B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5C9E581F51F3DE002B41B4 /* Build configuration list for PBXNativeTarget "IAP-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5C9E591F51F3DE002B41B4 /* Debug */,
+				7F5C9E5A1F51F3DE002B41B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5C9E5B1F51F3DE002B41B4 /* Build configuration list for PBXNativeTarget "IAP-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5C9E5C1F51F3DE002B41B4 /* Debug */,
+				7F5C9E5D1F51F3DE002B41B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5C9E741F51F3F0002B41B4 /* Build configuration list for PBXNativeTarget "IAP-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5C9E751F51F3F0002B41B4 /* Debug */,
+				7F5C9E761F51F3F0002B41B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5C9E771F51F3F0002B41B4 /* Build configuration list for PBXNativeTarget "IAP-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5C9E781F51F3F0002B41B4 /* Debug */,
+				7F5C9E791F51F3F0002B41B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F5C9E1F1F51F37E002B41B4 /* Project object */;
+}

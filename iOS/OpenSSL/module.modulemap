@@ -1,0 +1,108 @@
+module OpenSSL {
+    module asn1 {
+        header "asn1.h"
+        export *
+    }
+    module bio {
+        header "bio.h"
+        export *
+    }
+    module bn {
+        header "bn.h"
+        export *
+    }
+    module buffer {
+        header "buffer.h"
+        export *
+    }
+    module crypto {
+        header "crypto.h"
+        export *
+    }
+    module dh {
+        header "dh.h"
+        export *
+    }
+    module dsa {
+        header "dsa.h"
+        export *
+    }
+    module e_os2 {
+        header "e_os2.h"
+        export *
+    }
+    module ec {
+        header "ec.h"
+        export *
+    }
+    module ecdh {
+        header "ecdh.h"
+        export *
+    }
+    module ecdsa {
+        header "ecdsa.h"
+        export *
+    }
+    module evp {
+        header "evp.h"
+        export *
+    }
+    module lhash {
+        header "lhash.h"
+        export *
+    }
+    module obj_mac {
+        header "obj_mac.h"
+        export *
+    }
+    module objects {
+        header "objects.h"
+        export *
+    }
+    module opensslconf {
+        header "opensslconf.h"
+        export *
+    }
+    module opensslv {
+        header "opensslv.h"
+        export *
+    }
+    module ossl_typ {
+        header "ossl_typ.h"
+        export *
+    }
+    module pkcs7 {
+        header "pkcs7.h"
+        export *
+    }
+    module rsa {
+        header "rsa.h"
+        export *
+    }
+    module safestack {
+        header "safestack.h"
+        export *
+    }
+    module sha {
+        header "sha.h"
+        export *
+    }
+    module stack {
+        header "stack.h"
+        export *
+    }
+    module symhacks {
+        header "symhacks.h"
+        export *
+    }
+    module x509 {
+        header "x509.h"
+        export *
+    }
+    module x509_vfy {
+        header "x509_vfy.h"
+        export *
+    }
+    
+    export *
+}
