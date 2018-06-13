@@ -4,7 +4,7 @@ A simple approach to Apple In App Purchases (IAP) that handles the presentation 
 IAPKit is used by [Kaleidoscope 2](https://www.kaleidoscopeapp.com) and [Pixelboard](https://www.getpixelboardapp.com) on iPad.
 
 ### Requirements
-- An app running iOS 11+, tvOS 11+, or macOS 10.12+
+- An app running iOS 11+, tvOS 11+
 - StoreKit
 
 
