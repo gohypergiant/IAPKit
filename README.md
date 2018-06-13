@@ -158,7 +158,7 @@ store.purchasedProducts // `[PurchasedProduct]?`
 store.hasPurchasesAvailable // `Bool`
 ```
 
-### Determine if any receipts are of type Availablity.purchased
+### Determine if any receipts are of type Availability.purchased
 ```swift
 store.isAppPurchased // `Bool`
 ```
