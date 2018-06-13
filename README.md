@@ -232,6 +232,8 @@ Services: _iOS / Android / Web / tvOS / Chromecast / Roku_
   <img src="ReadMeImages/hire.png" />
 </a>
 
+<br />
+
 Website: [blackpixel.com](https://blackpixel.com) &nbsp;&middot;&nbsp;
 Twitter: [@blackpixel](https://twitter.com/blackpixel) &nbsp;&middot;&nbsp;
 Medium: [@bpxl-craft](https://medium.com/bpxl-craft)
