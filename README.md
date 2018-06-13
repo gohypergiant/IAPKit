@@ -192,7 +192,7 @@ This framework has a dependency on OpenSSL.  OpenSSL is required for receipt val
 
 The static library was built from the repo and instructions for [OpenSSL-for-iPhone](https://github.com/x2on/OpenSSL-for-iPhone)
 
-The integration of the OpenSSL libraries vary somewhat from the instructions for OpenSSL-for-iPhone for the reason that their sample project shows how to integrate the library into a single target app.  Because the BPXL IAP Framework is distributed as a "framework" we must follow a different proceedure as we cannot import the OpenSSL headers in a `bridging-header.h` file.  Instead we must integrate the library using a `module.modulemap`.  You will find this file in `iOS/ProjectModule/module.modulemap`.
+The integration of the OpenSSL libraries vary somewhat from the instructions for OpenSSL-for-iPhone for the reason that their sample project shows how to integrate the library into a single target app.  Because the BPXL IAP Framework is distributed as a "framework" we must follow a different procedure as we cannot import the OpenSSL headers in a `bridging-header.h` file.  Instead we must integrate the library using a `module.modulemap`.  You will find this file in `iOS/ProjectModule/module.modulemap`.
 
 Some specific build settings need to be set in order to facilitate this:
 
