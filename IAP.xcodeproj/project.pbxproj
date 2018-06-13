@@ -125,9 +125,6 @@
 		7F5C9E391F51F3AC002B41B4 /* IAP_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9E381F51F3AC002B41B4 /* IAP_iOSTests.swift */; };
 		7F5C9E3B1F51F3AC002B41B4 /* IAP_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5C9E2D1F51F3AC002B41B4 /* IAP_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F5C9E501F51F3DE002B41B4 /* IAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5C9E471F51F3DE002B41B4 /* IAP.framework */; };
-		7F5C9E551F51F3DE002B41B4 /* IAP_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9E541F51F3DE002B41B4 /* IAP_tvOSTests.swift */; };
-		7F5C9E571F51F3DE002B41B4 /* IAP_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5C9E491F51F3DE002B41B4 /* IAP_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F5C9E861F51F577002B41B4 /* IAP-tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9E851F51F577002B41B4 /* IAP-tvOS.swift */; };
 		7F5C9E8A1F51F5A1002B41B4 /* IAP-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9E891F51F5A1002B41B4 /* IAP-iOS.swift */; };
 		7F852C6C1F51F780008D8ADD /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C6B1F51F780008D8ADD /* Store.swift */; };
 		7F852C6E1F51F780008D8ADD /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F852C6B1F51F780008D8ADD /* Store.swift */; };
@@ -279,12 +276,7 @@
 		7F5C9E381F51F3AC002B41B4 /* IAP_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAP_iOSTests.swift; sourceTree = "<group>"; };
 		7F5C9E3A1F51F3AC002B41B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F5C9E471F51F3DE002B41B4 /* IAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F5C9E491F51F3DE002B41B4 /* IAP_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAP_tvOS.h; sourceTree = "<group>"; };
-		7F5C9E4A1F51F3DE002B41B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F5C9E4F1F51F3DE002B41B4 /* IAP-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IAP-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F5C9E541F51F3DE002B41B4 /* IAP_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAP_tvOSTests.swift; sourceTree = "<group>"; };
-		7F5C9E561F51F3DE002B41B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F5C9E851F51F577002B41B4 /* IAP-tvOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IAP-tvOS.swift"; sourceTree = "<group>"; };
 		7F5C9E891F51F5A1002B41B4 /* IAP-iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IAP-iOS.swift"; sourceTree = "<group>"; };
 		7F852C6B1F51F780008D8ADD /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		7F852C6F1F51F7A1008D8ADD /* Availability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Availability.swift; sourceTree = "<group>"; };
@@ -493,7 +485,6 @@
 			children = (
 				7F5C9E7D1F51F42F002B41B4 /* Core */,
 				7F5C9E7A1F51F42F002B41B4 /* iOS */,
-				7F5C9E7B1F51F42F002B41B4 /* tvOS */,
 				7F5C9E2B1F51F3AC002B41B4 /* Products */,
 				374E27991F58B895007000C7 /* Frameworks */,
 			);
@@ -528,24 +519,6 @@
 			path = "IAP-iOSTests";
 			sourceTree = "<group>";
 		};
-		7F5C9E481F51F3DE002B41B4 /* IAP-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				7F5C9E491F51F3DE002B41B4 /* IAP_tvOS.h */,
-				7F5C9E4A1F51F3DE002B41B4 /* Info.plist */,
-			);
-			path = "IAP-tvOS";
-			sourceTree = "<group>";
-		};
-		7F5C9E531F51F3DE002B41B4 /* IAP-tvOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				7F5C9E541F51F3DE002B41B4 /* IAP_tvOSTests.swift */,
-				7F5C9E561F51F3DE002B41B4 /* Info.plist */,
-			);
-			path = "IAP-tvOSTests";
-			sourceTree = "<group>";
-		};
 		7F5C9E7A1F51F42F002B41B4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -555,16 +528,6 @@
 				7F5C9E371F51F3AC002B41B4 /* IAP-iOSTests */,
 			);
 			path = iOS;
-			sourceTree = "<group>";
-		};
-		7F5C9E7B1F51F42F002B41B4 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				7F5C9E801F51F48B002B41B4 /* Source */,
-				7F5C9E481F51F3DE002B41B4 /* IAP-tvOS */,
-				7F5C9E531F51F3DE002B41B4 /* IAP-tvOSTests */,
-			);
-			path = tvOS;
 			sourceTree = "<group>";
 		};
 		7F5C9E7D1F51F42F002B41B4 /* Core */ = {
@@ -598,14 +561,6 @@
 				79CE6786202CD91F0003C7CD /* IAPDialogCell.xib */,
 				373359791F63766B0066E08E /* Assets.xcassets */,
 				37EC59CF1F67684C005F138F /* RoundedButton.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		7F5C9E801F51F48B002B41B4 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				7F5C9E851F51F577002B41B4 /* IAP-tvOS.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -717,7 +672,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F5C9E571F51F3DE002B41B4 /* IAP_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -931,7 +885,6 @@
 				7F852C811F51F87A008D8ADD /* Notifications.swift in Sources */,
 				375AD0301F6057B500721D4C /* ReceiptValidator.swift in Sources */,
 				75403B6F1F62FD1B00416CB2 /* Keychain.swift in Sources */,
-				7F5C9E861F51F577002B41B4 /* IAP-tvOS.swift in Sources */,
 				7F852C721F51F7A1008D8ADD /* Availability.swift in Sources */,
 				7FFCD9CA1F65E92E00A03C58 /* Logging.swift in Sources */,
 				75E0C2C61F62DAF1002A9E2B /* HTTPDateClient.swift in Sources */,
@@ -945,7 +898,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F5C9E551F51F3DE002B41B4 /* IAP_tvOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
