@@ -232,7 +232,7 @@ Services: _iOS / Android / Web / tvOS / Chromecast / Roku_
   <img src="ReadMeImages/hire.png" />
 </a>
 
-<br />
+<br /><br />
 
 Website: [blackpixel.com](https://blackpixel.com) &nbsp;&middot;&nbsp;
 Twitter: [@blackpixel](https://twitter.com/blackpixel) &nbsp;&middot;&nbsp;
