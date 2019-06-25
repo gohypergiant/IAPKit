@@ -74,7 +74,9 @@ public class PaymentTransactionObserver: NSObject, SKPaymentTransactionObserver 
                 
             case .deferred, .purchasing:
                 break
-            }
+			@unknown default:
+				break
+			}
         }
     }
     

@@ -127,10 +127,10 @@ extension IAPDialogCell {
         
         let textSize = CGSize(width: cellWidth - (IAPDialogCell.textSidePadding * 2), height: CGFloat.greatestFiniteMagnitude)
         
-        let title = NSAttributedString(string: product.skProduct.localizedTitle, attributes: [NSAttributedStringKey.font: UIFont.titleFont])
+        let title = NSAttributedString(string: product.skProduct.localizedTitle, attributes: [NSAttributedString.Key.font: UIFont.titleFont])
         let titleHeight = ceil(title.boundingRect(with: textSize, options: [.usesFontLeading, .usesLineFragmentOrigin], context: nil).height)
         
-        let description = NSAttributedString(string: product.marketingMessage, attributes: [NSAttributedStringKey.font: UIFont.descriptionFont])
+        let description = NSAttributedString(string: product.marketingMessage, attributes: [NSAttributedString.Key.font: UIFont.descriptionFont])
         let descriptionHeight = ceil(description.boundingRect(with: textSize, options: [.usesFontLeading, .usesLineFragmentOrigin], context: nil).height)
         
         guard isCompact else {
@@ -138,7 +138,7 @@ extension IAPDialogCell {
             return CGSize(width: cellWidth, height: cellHeight)
         }
         
-        let price = NSAttributedString(string: product.skProduct.price.stringValue, attributes: [NSAttributedStringKey.font: UIFont.priceFont])
+        let price = NSAttributedString(string: product.skProduct.price.stringValue, attributes: [NSAttributedString.Key.font: UIFont.priceFont])
         let priceHeight = ceil(price.boundingRect(with: textSize, options: [.usesFontLeading, .usesLineFragmentOrigin], context: nil).height)
         
         let cellHeight = IAPDialogCell.titleTopPaddingRegular + titleHeight + IAPDialogCell.titleStackViewSpacingCompact + priceHeight + IAPDialogCell.descriptionToPricePaddingCompact + descriptionHeight + IAPDialogCell.descriptionBottomPaddingCompact

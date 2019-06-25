@@ -67,8 +67,8 @@ struct Keychain {
                 kSecClass as String: kSecClassGenericPassword,
                 kSecAttrService as String: secureDateProviderService,
                 kSecMatchLimit as String: kSecMatchLimitOne,
-                kSecReturnAttributes as String: kCFBooleanTrue,
-                kSecReturnData as String: kCFBooleanTrue
+				kSecReturnAttributes as String: kCFBooleanTrue ?? "true",
+                kSecReturnData as String: kCFBooleanTrue ?? "true"
             ]
 
             var queryResult: AnyObject?

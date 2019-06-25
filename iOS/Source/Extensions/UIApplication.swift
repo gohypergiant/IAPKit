@@ -69,10 +69,10 @@ extension UIApplication {
         // Use the status bar orientation as it has proven to be a more reliable way to get the orientation for this purpose.
         // Using UIDevice orientation won't work if the device is in face up for face down orientation.
         let orientation = UIApplication.shared.statusBarOrientation
-        if UIInterfaceOrientationIsLandscape(orientation) {
+        if orientation.isLandscape {
             return true
         }
-        else if UIInterfaceOrientationIsPortrait(orientation) {
+        else if orientation.isPortrait {
             return false
         }
         else {
@@ -114,7 +114,7 @@ extension UIApplication {
     }
 }
 
-extension Dictionary where Key == UIApplicationLaunchOptionsKey {
+extension Dictionary where Key == UIApplication.LaunchOptionsKey {
     var url: URL? {
         return self[.url] as? URL
     }    
