@@ -757,7 +757,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Black Pixel Luminance";
 				TargetAttributes = {
 					7F5C9E291F51F3AC002B41B4 = {
@@ -782,6 +782,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7F5C9E1E1F51F37E002B41B4;
 			productRefGroup = 7F5C9E2B1F51F3AC002B41B4 /* Products */;
