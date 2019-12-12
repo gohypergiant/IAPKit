@@ -148,10 +148,11 @@ public class Store<Product: Purchaseable> {
                                                                 self.dismissAvailablePurchasesModal(wasCancelled: true)
         })
         
-        presentingViewController.present(modalViewController, animated: true, completion: nil)
         self.modalViewController = modalViewController
-        refreshProductsList()
         
+        presentingViewController.present(modalViewController, animated: true) { [weak self] in
+            self?.refreshProductsList()
+        }
     }
     
     
