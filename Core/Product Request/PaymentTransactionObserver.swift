@@ -81,7 +81,7 @@ public class PaymentTransactionObserver: NSObject, SKPaymentTransactionObserver 
     public func paymentQueueRestoreCompletedTransactionsFinished(_ queue: SKPaymentQueue) {
         // fetch support email or nil if it doesn't exist
         if let info = Bundle.main.infoDictionary,
-           let supportEmail = info["HGSupportEmail"] as? String {
+           let supportEmail = info["IAPKitSupportEmail"] as? String {
             // Check to see if the returned queue as any transactions.  If there are no
             // transactions, it means the user has not made any purchases yet, so there is
             // nothing to restore.
