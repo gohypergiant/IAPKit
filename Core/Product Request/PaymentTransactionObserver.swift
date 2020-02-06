@@ -79,19 +79,23 @@ public class PaymentTransactionObserver: NSObject, SKPaymentTransactionObserver 
     }
     
     public func paymentQueueRestoreCompletedTransactionsFinished(_ queue: SKPaymentQueue) {
-        // Check to see if the returned queue as any transactions.  If there are no
-        // transactions, it means the user has not made any purchases yet, so there is
-        // nothing to restore.
-        guard queue.transactions.count > 0 else {
-            // There were no transactions for this user
-            let localizedErrorMessage = NSLocalizedString("Sorry, no purchased products were found. If you have questions, please contact support@blackpixel.com.", tableName: nil, bundle: Bundle(for: PaymentTransactionObserver.self), value: "", comment: "no previous transactions were found on the users current iTunes account error message")
+        // fetch support email or nil if it doesn't exist
+        if let info = Bundle.main.infoDictionary,
+           let supportEmail = info["HGSupportEmail"] as? String {
+            // Check to see if the returned queue as any transactions.  If there are no
+            // transactions, it means the user has not made any purchases yet, so there is
+            // nothing to restore.
+            guard queue.transactions.count > 0 else {
+                // There were no transactions for this user
+                let localizedErrorMessage = NSLocalizedString("Sorry, no purchased products were found. If you have questions, please contact ", tableName: nil, bundle: Bundle(for: PaymentTransactionObserver.self), value: "", comment: "no previous transactions were found on the users current iTunes account error message.  a support email is appended to the end of the string") + " \(supportEmail)."
+
+                delegate?.transactionDidFail(localizedErrorMessage: localizedErrorMessage)
+                
+                return
+            }
             
-            delegate?.transactionDidFail(localizedErrorMessage: localizedErrorMessage)
-            
-            return
+            delegate?.didRestorePurchases()
         }
-        
-        delegate?.didRestorePurchases()
     }
     
     public func paymentQueue(_ queue: SKPaymentQueue, restoreCompletedTransactionsFailedWithError error: Error) {
