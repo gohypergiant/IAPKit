@@ -150,6 +150,16 @@ public class Store<Product: Purchaseable> {
         
         self.modalViewController = modalViewController
         
+        // Determine how to present the view controller based on the horizontal size class
+        switch presentingViewController.traitCollection.horizontalSizeClass {
+        case .compact:
+            self.modalViewController?.modalPresentationStyle = .fullScreen
+        case .regular:
+            self.modalViewController?.modalPresentationStyle = .formSheet
+        default:
+            self.modalViewController?.modalPresentationStyle = .fullScreen
+        }
+        
         presentingViewController.present(modalViewController, animated: true) { [weak self] in
             self?.refreshProductsList()
         }
