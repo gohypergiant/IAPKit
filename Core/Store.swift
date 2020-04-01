@@ -254,7 +254,7 @@ extension Store {
     fileprivate func configureSecureDateProviderRefresh() {
         secureDateProviderRefreshIfNotPurchased()
 
-        observers.append(NotificationCenter.when(.UIApplicationWillEnterForeground) { [weak self] _ in
+        observers.append(NotificationCenter.when(UIApplication.willEnterForegroundNotification) { [weak self] _ in
             self?.secureDateProviderRefreshIfNotPurchased()
         })
         
