@@ -71,9 +71,11 @@ class IAPDialogViewController: IAPViewController {
     
     var products = [StoreProduct]() {
         didSet {
-            collectionView.reloadData()
-            UIView.animate(withDuration: 0.2) {
-                self.activityView.alpha = 0.0
+            DispatchQueue.main.async { [weak self] in
+                self?.collectionView.reloadData()
+                UIView.animate(withDuration: 0.2) {
+                    self?.activityView.alpha = 0.0
+                }
             }
         }
     }
