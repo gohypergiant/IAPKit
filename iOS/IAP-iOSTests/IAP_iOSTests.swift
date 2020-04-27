@@ -24,7 +24,7 @@
 //
 
 import XCTest
-@testable import IAP_iOS
+@testable import IAP
 
 class IAP_iOSTests: XCTestCase {
     
